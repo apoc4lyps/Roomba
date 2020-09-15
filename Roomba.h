@@ -386,7 +386,7 @@ public:
     /// \param[in] serial POinter to the HardwareSerial port to use to communicate with the Roomba.
     /// Defaults to &Serial
     /// \param[in] baud the baud rate to use on the serial port. Defaults to 57600, the default for the Roomba.
-    Roomba(HardwareSerial* serial = &Serial, Baud baud = Baud57600);
+    Roomba(HardwareSerial* serial = &Serial1, Baud baud = Baud57600);
 
     /// Resets the Roomba.
     /// It will emit its startup message
